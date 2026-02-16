@@ -24,6 +24,7 @@ Primux works in **both Browser and Node.js environments**, with proper ESM and C
 ```bash
 # Using npm
 npm install primux
+```
 
 ## Usage
 
@@ -35,6 +36,7 @@ npm install primux
 const _p = require("primux");
 
 console.log(_p.uppercaseWords("hello world")); // "Hello World"
+```
 
 **ESM:**
 
@@ -42,6 +44,7 @@ console.log(_p.uppercaseWords("hello world")); // "Hello World"
 import _p from "primux";
 import { uppercaseWords } from "primux";
 console.log(uppercaseWords("hello world")); // "Hello World"
+```
 
 ```html
 <!-- Browser Usage (CDN) -->
@@ -72,6 +75,7 @@ console.log(uppercaseWords("hello world")); // "Hello World"
   import { uppercaseWords } from "https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.esm.min.js";
   console.log(uppercaseWords("hello world")); // "Hello World"
 </script>
+```
 
 ## Documentation
 
