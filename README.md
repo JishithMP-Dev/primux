@@ -50,14 +50,14 @@ console.log(uppercaseWords("hello world")); // "Hello World"
 <!-- Browser Usage (CDN) -->
 
 <!-- Minified version -->
-<script src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.min.js"></script>
 
 <!-- Full version -->
-<script src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.js"></script>
 
 <!-- ESM versions -->
-<script type="module" src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.esm.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.esm.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.esm.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.esm.min.js"></script>
 
 <!-- Usage in Browser with global _p -->
 <script>
@@ -68,11 +68,11 @@ console.log(uppercaseWords("hello world")); // "Hello World"
 <!-- Usage in Browser with ESM imports -->
 <script type="module">
   // Default import
-  import _p from "https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.esm.min.js";
+  import _p from "https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.esm.min.js";
   console.log(_p.uppercaseWords("hello world")); // "Hello World"
 
   // Named import
-  import { uppercaseWords } from "https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.0/primux.esm.min.js";
+  import { uppercaseWords } from "https://cdn.jsdelivr.net/gh/JishithMP-Dev/primux@v1.0.4/primux.esm.min.js";
   console.log(uppercaseWords("hello world")); // "Hello World"
 </script>
 ```
