@@ -15,7 +15,7 @@
  * @copyright  © 2026 Jishith
  * @license    MIT
  *
- * @repository https://github.com/yourname/primux
+ * @repository https://github.com/JishithMP-Dev/primux
  *
  * Created:       04-02-2026
  * Last Modified: 16-02-2026
